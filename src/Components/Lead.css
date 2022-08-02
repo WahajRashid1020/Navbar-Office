@@ -1,0 +1,29 @@
+.Searchbar {
+  margin: 10px 0px;
+}
+.SelectRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.Table {
+  margin: 10px 0px;
+}
+.space {
+  margin: 10px;
+}
+
+@media (max-width: 567px) {
+  .Table {
+    display: none;
+  }
+
+  .Card {
+    margin: 10px 0px;
+  }
+}
+@media (min-width: 567px) {
+  .Card {
+    display: none;
+  }
+}
